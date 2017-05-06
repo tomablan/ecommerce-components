@@ -1,0 +1,53 @@
+<div class="product" itemscope itemtype="http://schema.org/Product">
+  <div class="product-name" itemprop="name">Executive Anvil</div>
+  <div class="product-subname">Sometimes it hurts</div>
+  <div class="product-brand" itemprop="brand">ACME</div>
+  <img class="brand-logo" src="http://placeholder.it/150x50" alt="Product brand">
+  <img class="product-image" itemprop="image" src="anvil_executive.jpg" alt="Executive Anvil logo" />
+
+  <p itemprop="description">Sleeker than ACME's Classic Anvil, the
+    Executive Anvil is perfect for the business traveler
+    looking for something to drop from a height.
+  </p>
+
+  <div class="product-options">
+    <select name="size" class="option-size">
+      <option value="1">S</option>
+      <option value="2">M</option>
+      <option value="3">L</option>
+      <option value="4">XL</option>
+    </select>
+  </div>
+  <div class="product-buy-quantity">
+    <input type="number" name="quantity" class="quantity-input" value="1">
+  </div>
+
+  Product Reference : #<span itemprop="mpn">925872</span>
+
+  <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+    <span itemprop="ratingValue">4.4</span> stars, based on <span itemprop="reviewCount">89
+    </span> reviews
+  </span>
+
+  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <meta itemprop="priceCurrency" content="USD" />
+    <meta itemprop="price" content="119.99" />
+
+    <div class="offer-price">$119.99</div>
+    <div class="offer-old-price">$179.99</div>
+    <div class="offer-flash-sale">
+      (Sale ends <time itemprop="priceValidUntil" datetime="2020-11-05">5 November!</time>)
+    </div>
+    <div class="offer-seller">
+      Sold by :
+      <span itemprop="seller" itemscope itemtype="http://schema.org/Organization">
+        <span class="seller-name" itemprop="name">Executive Objects</span>
+      </span>
+    </div>
+    <div class="offer-availability">
+      <link itemprop="availability" href="http://schema.org/InStock"/>In stock! Order now!</span>
+    </div>
+  </div>
+  <button class="button product-buy">Add to cart</button>
+  <a href="#" class="product-favorite-add">Add to favorites</a>
+</div>
